@@ -1,0 +1,6 @@
+@WebChamados_HostAddress = http://localhost:5227
+
+GET {{WebChamados_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,286 @@
+[
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.ChamadoController",
+    "Method": "AbrirChamado",
+    "RelativePath": "api/Chamado/AbrirChamado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chamadoDto",
+        "Type": "WebChamadosAPI.DTOs.AbrirChamado",
+        "IsRequired": true
+      },
+      {
+        "Name": "emailSolicitante",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.ChamadoController",
+    "Method": "EditarChamado",
+    "RelativePath": "api/Chamado/EditarChamado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chamadoDto",
+        "Type": "WebChamadosAPI.DTOs.EditarChamado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.ChamadoController",
+    "Method": "ExcluirChamado",
+    "RelativePath": "api/Chamado/ExcluirChamado",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.ChamadoController",
+    "Method": "RetornaChamados",
+    "RelativePath": "api/Chamado/RetornaChamados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.ChamadoController",
+    "Method": "RetornaChamadosPorId",
+    "RelativePath": "api/Chamado/RetornaChamadosPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.ChamadoController",
+    "Method": "RetornaChamadosResponsavel",
+    "RelativePath": "api/Chamado/RetornaChamadosResponsavel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.ChamadoController",
+    "Method": "RetornaChamadosSolicitante",
+    "RelativePath": "api/Chamado/RetornaChamadosSolicitante",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.UsuarioController",
+    "Method": "Alterar",
+    "RelativePath": "api/Usuario/AlterarUsuario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "WebChamadosAPI.DTOs.AlterarModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.UsuarioController",
+    "Method": "AtualizaNovaSenha",
+    "RelativePath": "api/Usuario/AtualizaNovaSenha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WebChamadosAPI.DTOs.NovaSenhaModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.UsuarioController",
+    "Method": "EsqueciSenha",
+    "RelativePath": "api/Usuario/EsqueciSenhaEnviarLink",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.UsuarioController",
+    "Method": "Excluir",
+    "RelativePath": "api/Usuario/ExcluirUsuario",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "WebChamadosAPI.DTOs.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.UsuarioController",
+    "Method": "Refresh",
+    "RelativePath": "api/Usuario/Refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.UsuarioController",
+    "Method": "Registrar",
+    "RelativePath": "api/Usuario/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "WebChamadosAPI.DTOs.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.UsuarioController",
+    "Method": "ResetaSenha",
+    "RelativePath": "api/Usuario/ResetSenha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WebChamadosAPI.DTOs.ResetSenhaModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.UsuarioController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/Usuario/RetornarUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IAsyncEnumerable\u00601[[WebChamadosAPI.DTOs.RegisterModel, WebChamadosAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebChamadosAPI.Controllers.UsuarioController",
+    "Method": "GetUsuarioPorEmail",
+    "RelativePath": "api/Usuario/RetornaUserPorEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebChamadosAPI.Models.Usuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

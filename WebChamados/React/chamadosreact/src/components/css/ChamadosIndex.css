@@ -1,0 +1,47 @@
+
+
+
+
+/* Corpo principal da página */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: aqua; /* Cor de fundo do corpo */
+  min-height: calc(100vh - 60px); /* Ajusta a altura mínima para cobrir toda a tela menos o header */
+}
+
+.container {
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  margin: 15px;
+
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.btn-box-edit-chamado{
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn .btn-primary .btn-editar-chamado{
+  height: 20px   ; 
+  width: 20px;
+}
+
+.ag-cell .ag-cell-not-inline-editing .ag-cell-normal-height .ag-column-first .ag-cell-value{
+  padding: 0%;
+}

@@ -1,0 +1,81 @@
+.titulo{
+    font-size: 25px;
+    font-family: Arial, sans-serif; 
+    color: #212b36; 
+  }
+  
+  
+  /* Ajuste do Navbar */
+  .custom-navbar {
+    padding: 5px 20px; /* Reduz o padding do Navbar */
+    height: 80px; /* Ajusta a altura do Navbar */
+  }
+  
+  .custom-navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-navbar .navbar-brand .icon {
+    width: 30px; /* Ajusta a largura do ícone */
+    height: 30px; /* Ajusta a altura do ícone */
+    margin-right: 10px;
+  }
+  
+  .custom-navbar .navbar-toggler {
+    padding: 3px 10px; /* Ajusta o padding do toggler */
+    border: none; /* Remove a borda do toggler */
+  }
+  
+  .custom-navbar .navbar-collapse {
+    margin-top: -5px; /* Ajusta o espaçamento superior do Navbar Collapse */
+  }
+  
+  .custom-navbar .navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .custom-navbar .username-dropdown {
+    display: block;
+  }
+  
+  /* Ajustes para garantir que o toggler não ocupe toda a largura e que o "Olá, Usuário" desapareça em telas pequenas */
+  @media (max-width: 991px) {
+    .custom-navbar .username-dropdown {
+      display: none; /* Esconde o "Olá, Usuário" em telas pequenas */
+    }
+    .custom-navbar .navbar-toggler {
+      display: block;
+      margin-left: auto;
+      width: auto; /* Garante que o toggler não ocupe toda a largura */
+    }
+    .custom-navbar .navbar-collapse {
+      text-align: right;
+    }
+    .custom-navbar .navbar-collapse .nav {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    .custom-navbar .navbar-collapse .d-lg-none {
+      display: block; /* Mostra o dropdown do menu mobile */
+    }
+  }
+
+  
+.container {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin: 15px;
+  
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  

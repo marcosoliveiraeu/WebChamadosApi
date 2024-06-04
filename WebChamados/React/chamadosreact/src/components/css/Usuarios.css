@@ -1,0 +1,73 @@
+.btnIncluir{
+    width:168px;
+    margin-bottom: 10px;
+}
+
+.tituloUsuario{
+    text-align: center;
+    
+}
+
+.text-right {
+    float: left;
+}
+
+.btn.btn-square {
+    width: 30px; 
+    height: 30px; 
+    padding: 0; 
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+.coluna-nome{
+    width: 15%;  
+}
+
+
+.coluna-sobrenome{
+    width: 25%;   
+}
+
+.coluna-perfil{
+    width: 15%;      
+}
+
+.coluna-email{
+    width: 25%;  
+}
+
+.btn-box-edit-del{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appp {    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+.appp  .container {
+    width: 100%;
+}
+
+
+.custom-modal-footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .custom-modal-footer .btn {
+    margin-right:5px ;
+    margin-left:5px ;
+    width:100px;
+  }

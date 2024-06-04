@@ -1,0 +1,12 @@
+.campostext{
+    padding-top: 15px;
+}
+
+.campostext.campodiv{
+    padding-top: 47px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

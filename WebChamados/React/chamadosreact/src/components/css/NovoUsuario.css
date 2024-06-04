@@ -1,0 +1,26 @@
+
+.textFile{
+    margin: 0 !important;
+}
+
+.campoInput{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.btnsNovoUsusuario{
+
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.btnsNovoUsusuario .botoes{
+    margin-right:5px ;
+    margin-left:5px ;
+    width:150px;
+
+}
